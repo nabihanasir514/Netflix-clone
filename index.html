@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Netflix Pakistan – Watch TV Shows Online, Watch Movies Online</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="main">
+    <nav>
+      <span><img width="130" src="images/logo.svg" alt="Netflix Logo" /></span>
+      <div>
+        <button class="btn">English</button>
+        <button class="btn btn-red-sm">Sign In</button>
+      </div>
+    </nav>
+    <div class="box"></div>
+    <div class="hero">
+      <span>Enjoy big movies, hit series and more from RS 149.</span>
+      <span>Join today. Cancel anytime.</span>
+      <span>Ready to watch? Enter your email to create or restart your membership.</span>
+      <div class="hero-buttons">
+        <input type="text" placeholder="Email Address" />
+        <button class="btn btn-red">Get Started ></button>
+      </div>
+    </div>
+    <div class="separation"></div>
+  </div>
+
+  <section class="voice-search-section">
+    <h2>Search by Voice</h2>
+    <div class="voice-search">
+      <input type="text" id="searchBox" placeholder="Search movies or shows..." />
+      <button onclick="startVoiceSearch()" class="mic-btn" title="Click to speak">🎤</button>
+    </div>
+  </section>
+
+  <section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    
+    <div class="faqbox">
+      <span>What is Netflix?</span>
+      <svg onclick="toggleFaq(this)" width="24" height="24" fill="white">
+        <path d="M12 4V20M4 12H20" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <div class="answer">Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices.</div>
+    </div>
+    
+    <div class="faqbox">
+      <span>How much does Netflix cost?</span>
+      <svg onclick="toggleFaq(this)" width="24" height="24" fill="white">
+        <path d="M12 4V20M4 12H20" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <div class="answer">Watch Netflix on your smartphone, tablet, smart TV, laptop, or streaming device, all for one fixed monthly fee. Plans range from Rs149 to Rs649 a month. No extra costs, no contracts.</div>
+    </div>
+    
+    <div class="faqbox">
+      <span>What can I watch on Netflix?</span>
+      <svg onclick="toggleFaq(this)" width="24" height="24" fill="white">
+        <path d="M12 4V20M4 12H20" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <div class="answer">Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more.</div>
+    </div>
+    
+    <div class="faqbox">
+      <span>Where can I watch?</span>
+      <svg onclick="toggleFaq(this)" width="24" height="24" fill="white">
+        <path d="M12 4V20M4 12H20" stroke="#fff" stroke-width="1.5" stroke-linecap="round"/>
+      </svg>
+      <div class="answer">Watch anywhere, anytime. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device.</div>
+    </div>
+  </section>
+
+  <div class="separation"></div>
+
+  <footer>
+    <div class="questions">Questions? Call 000-800-919-1694</div>
+    <div class="footer">
+      <div class="footer-item">
+        <a href="#">Investor Relations</a>
+        <a href="#">Jobs</a>
+        <a href="#">Ways to Watch</a>
+        <a href="#">Terms of Use</a>
+      </div>
+      <div class="footer-item">
+        <a href="#">Help Centre</a>
+        <a href="#">Account</a>
+        <a href="#">Speed Test</a>
+        <a href="#">Legal Notices</a>
+      </div>
+      <div class="footer-item">
+        <a href="#">Media Centre</a>
+        <a href="#">Privacy</a>
+        <a href="#">Cookie Preferences</a>
+        <a href="#">Corporate</a>
+      </div>
+      <div class="footer-item">
+        <a href="#">Contact Us</a>
+        <a href="#">Only on Netflix</a>
+      </div>
+    </div>
+
+    <div style="text-align:center; margin-top: 20px; color: gray;">
+      Designed & Built by <strong>Nabiha Nasir</strong> | Software Engineering Student 💻❤️
+    </div>
+  </footer>
+</body>
+</html>
